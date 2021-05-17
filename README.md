@@ -1,19 +1,25 @@
-# Technigo React Starter App
+# Isabella's Portfolio
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+This is my portfolio I built using React. I also added a bit of ARIA attributes to make the website more accessible. 😸✨
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+My portfolio contains projects I built in the Technigo boot camp using HTML, CSS, JavaScript, React, Redux, Styled components and APIs. Since the boot camp isn't over yet, I will continuously add projects where I showcase my latest learned technologies. 
 
-## Usage
+My short term goal for my portfolio website is to build it using React and GitHub's API to fetch my project's repositories. 
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
 
-Alternatively, if you don't want a new git repo on your account;
+## Accessibility testing
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Here's an overview of the testing I've done on my portfolio website. 
+
+- The page is responsive and tested on different devices accessible to me in Chrome Dev tools
+- The page works fine on different browsers; Chrome, Edge and Firefox
+- It's possible to navigate the page using only the keyboard (tab, arrows and enter)
+- The page has been run through HTML validators with no errors; W3C Markup validation service and Lighthouse in Chrome Dev tools
+- Ran an audit using WAVE (wave.webaim.org); the page received no errors. There are some contrast errors that I intend to fix asap.
+- The content of the page is still readable and understandable without the CSS; used the Google Chrome Web Developer tool to remove all the CSS
+- The page has been tested with a screen reader (NVDA) with good results
+
+
+## View it live
+
+Link to my live portfolio: https://isabella-markskog.netlify.app/
